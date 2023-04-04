@@ -16,7 +16,9 @@ const Home = () =>
     return (
         <div style={{ marginTop: '100px' }}>
             <Link to='/addContact'>
-
+                <button className="btn btn-add">
+                    Add Contact
+                </button>
             </Link>
         </div>
     )

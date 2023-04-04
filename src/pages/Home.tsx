@@ -15,7 +15,7 @@ const Home = () =>
 
     if (isLoading)
     {
-        return <h3>Loading...</h3>
+        return <h3 className='loading'>Loading...</h3>
     }
 
     return (

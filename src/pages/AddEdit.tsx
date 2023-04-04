@@ -1,4 +1,5 @@
 import React from 'react'
+import './AddEdit.css'
 
 type Props = {}
 

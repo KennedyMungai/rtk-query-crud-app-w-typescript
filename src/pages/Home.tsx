@@ -20,6 +20,11 @@ const Home = () =>
                     Add Contact
                 </button>
             </Link>
+            <br />
+            <br />
+            <table className="styled-table">
+
+            </table>
         </div>
     )
 }

@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import App from './App';
 import './index.css';
 import { store } from './store';
+import 'react-toastify/dist/ReactToastify.css'
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);

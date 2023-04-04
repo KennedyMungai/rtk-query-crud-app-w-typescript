@@ -23,7 +23,15 @@ const Home = () =>
             <br />
             <br />
             <table className="styled-table">
-
+                <thead>
+                    <tr>
+                        <th style={{ textAlign: 'center' }}>ID</th>
+                        <th style={{ textAlign: 'center' }}>Name</th>
+                        <th style={{ textAlign: 'center' }}>Email</th>
+                        <th style={{ textAlign: 'center' }}>Contact</th>
+                        <th style={{ textAlign: 'center' }}>Action</th>
+                    </tr>
+                </thead>
             </table>
         </div>
     )

@@ -11,3 +11,6 @@ export const contactsApi = createApi({
         })
     })
 })
+
+
+export const { useContactsQuery } = contactsApi

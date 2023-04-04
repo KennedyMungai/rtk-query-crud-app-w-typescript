@@ -15,7 +15,9 @@ const Home = () =>
 
     return (
         <div style={{ marginTop: '100px' }}>
+            <Link to='/addContact'>
 
+            </Link>
         </div>
     )
 }

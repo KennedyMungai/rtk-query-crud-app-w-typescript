@@ -7,7 +7,11 @@ import { useContactsQuery } from '../services/contactsApi'
 
 const Home = () =>
 {
-    const { data, isLoading, error } = useContactsQuery()
+    const {
+        data,
+        isLoading,
+        error
+    } = useContactsQuery()
 
     return (
         <div>Home</div>

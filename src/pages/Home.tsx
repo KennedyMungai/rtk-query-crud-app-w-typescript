@@ -13,6 +13,11 @@ const Home = () =>
         error
     } = useContactsQuery()
 
+    if (isLoading)
+    {
+        return <h3>Loading...</h3>
+    }
+
     return (
         <div style={{ marginTop: '100px' }}>
             <Link to='/addContact'>

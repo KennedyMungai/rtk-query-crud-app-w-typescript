@@ -5,7 +5,7 @@ function App()
 {
   return (
     <div className="App">
-
+      <h2>RTK Query</h2>
     </div>
   );
 }

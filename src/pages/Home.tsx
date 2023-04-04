@@ -14,7 +14,9 @@ const Home = () =>
     } = useContactsQuery()
 
     return (
-        <div>Home</div>
+        <div style={{ marginTop: '100px' }}>
+
+        </div>
     )
 }
 

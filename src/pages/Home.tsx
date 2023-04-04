@@ -15,8 +15,11 @@ const Home = () =>
 
     useEffect(() =>
     {
-
-    }, [])
+        if (error)
+        {
+            toast.error("Something went wrong")
+        }
+    }, [error])
 
 
     if (isLoading)

@@ -13,6 +13,12 @@ const Home = () =>
         error
     } = useContactsQuery()
 
+    useEffect(() =>
+    {
+
+    }, [])
+
+
     if (isLoading)
     {
         return <h3 className='loading'>Loading...</h3>

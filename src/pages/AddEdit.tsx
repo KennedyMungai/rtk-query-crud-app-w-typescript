@@ -18,7 +18,9 @@ const AddEdit = () =>
     const navigate = useNavigate()
 
     return (
-        <div>AddEdit</div>
+        <div style={{ marginTop: '100px' }}>
+
+        </div>
     )
 }
 

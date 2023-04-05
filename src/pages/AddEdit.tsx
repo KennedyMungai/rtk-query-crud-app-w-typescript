@@ -65,7 +65,7 @@ const AddEdit = () =>
                     value={contact}
                     onChange={handleInputChange}
                 />
-                <input type="submit" value="Add" />b
+                <input type="submit" value="Add" />
             </form>
         </div>
     )

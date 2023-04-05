@@ -45,7 +45,11 @@ const Info = () =>
                 <span>{data?.contact}</span>
                 <br />
                 <br />
-                <button className="btn btn-edit">Go Back</button>
+                <Link
+                    to='/'
+                >
+                    <button className="btn btn-edit">Go Back</button>
+                </Link>
             </div>
         </div>
     )

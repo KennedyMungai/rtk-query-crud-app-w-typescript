@@ -4,6 +4,12 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
 
+const initialState = {
+    name: "",
+    email: "",
+    contact: ""
+}
+
 const AddEdit = () =>
 {
     return (

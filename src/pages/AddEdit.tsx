@@ -2,6 +2,7 @@ import React, { ChangeEvent, FormEvent, useEffect, useState } from 'react'
 import './AddEdit.css'
 import { useNavigate, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
+import { useAddContactsMutation } from '../services/contactsApi'
 
 
 const initialState = {
@@ -14,6 +15,8 @@ const AddEdit = () =>
 {
     const [formValue, setFormValue] = useState(initialState)
     const { name, email, contact } = formValue
+
+    const [addContact] = useAddContactsMutation()
 
     const navigate = useNavigate()
 

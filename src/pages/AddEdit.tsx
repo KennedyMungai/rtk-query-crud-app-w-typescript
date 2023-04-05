@@ -2,7 +2,11 @@ import React, { ChangeEvent, FormEvent, useEffect, useState } from 'react'
 import './AddEdit.css'
 import { useNavigate, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import { useAddContactsMutation, useContactQuery } from '../services/contactsApi'
+import
+    {
+        useAddContactsMutation,
+        useContactQuery
+    } from '../services/contactsApi'
 
 
 const initialState = {

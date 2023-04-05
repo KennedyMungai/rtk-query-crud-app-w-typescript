@@ -20,7 +20,15 @@ const Info = () =>
 
 
     return (
-        <div>Info</div>
+        <div
+            style={{ marginTop: '150px' }}
+        >
+            <div className="card">
+                <div className="card-header">
+                    <p>User Contact Details</p>
+                </div>
+            </div>
+        </div>
     )
 }
 

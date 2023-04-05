@@ -17,6 +17,11 @@ const AddEdit = () =>
 
     const navigate = useNavigate()
 
+    const handleInputChange = () =>
+    {
+
+    }
+
     return (
         <div style={{ marginTop: '100px' }}>
             <form
@@ -34,7 +39,7 @@ const AddEdit = () =>
                     name='name'
                     placeholder='Enter Name....'
                     value={name}
-                    onChange={handleInputCHange}
+                    onChange={handleInputChange}
                 />
             </form>
         </div>

@@ -83,7 +83,10 @@ const AddEdit = () =>
             }
             else
             {
-
+                await updateContact(formValue)
+                setEditMode(false)
+                navigate('/')
+                toast.success("Contact Updated Successfully")
             }
         }
     }

@@ -33,6 +33,7 @@ const AddEdit = () =>
                     id='name'
                     name='name'
                     placeholder='Enter Name....'
+                    value={name}
                 />
             </form>
         </div>

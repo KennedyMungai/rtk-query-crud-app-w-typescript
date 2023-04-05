@@ -47,6 +47,24 @@ const AddEdit = () =>
                     value={name}
                     onChange={handleInputChange}
                 />
+                <label htmlFor="email">Email</label>
+                <input
+                    type="email"
+                    id='email'
+                    name='email'
+                    placeholder='Enter Email....'
+                    value={name}
+                    onChange={handleInputChange}
+                />
+                <label htmlFor="contact">Contact</label>
+                <input
+                    type="text"
+                    id='contact'
+                    name='contact'
+                    placeholder='Enter Contact....'
+                    value={name}
+                    onChange={handleInputChange}
+                />
             </form>
         </div>
     )

@@ -1,4 +1,4 @@
-import React, { FormEventHandler, useEffect, useState } from 'react'
+import React, { ChangeEvent, FormEvent, useEffect, useState } from 'react'
 import './AddEdit.css'
 import { useNavigate, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
@@ -17,14 +17,14 @@ const AddEdit = () =>
 
     const navigate = useNavigate()
 
-    const handleInputChange = () =>
+    const handleInputChange = (e: ChangeEvent<HTMLInputElement>) =>
     {
 
     }
 
-    const handleSubmit = () =>
+    const handleSubmit = (e: FormEvent<HTMLFormElement>) =>
     {
-
+        e.preventDefault()
     }
 
     return (

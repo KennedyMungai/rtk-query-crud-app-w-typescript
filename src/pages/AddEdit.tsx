@@ -23,6 +23,12 @@ const AddEdit = () =>
     const navigate = useNavigate()
     const { id } = useParams()
 
+    useEffect(() =>
+    {
+
+    }, [])
+
+
     const handleInputChange = (e: ChangeEvent<HTMLInputElement>) =>
     {
         let { name, value } = e.target

@@ -26,7 +26,20 @@ const AddEdit = () =>
 
     useEffect(() =>
     {
+        if (id)
+        {
+            setEditMode(true)
 
+            if (data)
+            {
+                setFormValue({...data})
+            }
+            else
+            {
+                setEditMode(false)
+                setFormValue({...initialState})
+            }
+        }
     }, [id, data])
 
 

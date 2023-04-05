@@ -12,6 +12,8 @@ const initialState = {
 
 const AddEdit = () =>
 {
+    const [formValue, setFormValue] = useState(initialState)
+
     return (
         <div>AddEdit</div>
     )

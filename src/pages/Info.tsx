@@ -28,6 +28,24 @@ const Info = () =>
                     <p>User Contact Details</p>
                 </div>
             </div>
+            <div className="container">
+                <strong>ID: </strong>
+                <span>{id}</span>
+                <br />
+                <br />
+                <strong>Name: </strong>
+                <span>{data?.name}</span>
+                <br />
+                <br />
+                <strong>Email: </strong>
+                <span>{data?.email}</span>
+                <br />
+                <br />
+                <strong>Contact: </strong>
+                <span>{data?.contact}</span>
+                <br />
+                <br />
+            </div>
         </div>
     )
 }

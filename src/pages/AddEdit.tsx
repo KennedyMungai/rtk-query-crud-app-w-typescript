@@ -26,6 +26,15 @@ const AddEdit = () =>
     const handleSubmit = (e: FormEvent<HTMLFormElement>) =>
     {
         e.preventDefault()
+
+        if (!name && !email && !contact)
+        {
+            toast.error("Please provide a value into each input field")
+        }
+        else
+        {
+
+        }
     }
 
     return (

@@ -26,7 +26,7 @@ const AddEdit = () =>
         setFormValue({ ...formValue, [name]: value })
     }
 
-    const handleSubmit = (e: FormEvent<HTMLFormElement>) =>
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>) =>
     {
         e.preventDefault()
 

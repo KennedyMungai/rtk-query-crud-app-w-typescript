@@ -15,6 +15,8 @@ const AddEdit = () =>
     const [formValue, setFormValue] = useState(initialState)
     const { name, email, contact } = formValue
 
+    const navigate = useNavigate()
+
     return (
         <div>AddEdit</div>
     )

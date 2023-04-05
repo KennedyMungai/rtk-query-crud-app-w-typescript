@@ -8,6 +8,13 @@ export const contactsApi = createApi({
     endpoints: (builder) => ({
         contacts: builder.query<Contact[], void>({
             query: () => "/contacts",
+        }),
+        addContacts: builder.mutation<{}, Contact>({
+            query: (contact) => ({
+                url: '/contacts',
+                method: 'POST',
+                body: contact
+            })
         })
     })
 })

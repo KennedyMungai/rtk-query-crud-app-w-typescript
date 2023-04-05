@@ -58,7 +58,7 @@ const AddEdit = () =>
                 />
                 <label htmlFor="contact">Contact</label>
                 <input
-                    type="text"
+                    type="number"
                     id='contact'
                     name='contact'
                     placeholder='Enter Contact....'

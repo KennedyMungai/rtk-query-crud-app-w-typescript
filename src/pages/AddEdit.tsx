@@ -14,6 +14,8 @@ const initialState = {
 const AddEdit = () =>
 {
     const [formValue, setFormValue] = useState(initialState)
+    const [editMode, setEditMode] = useState(false)
+
     const { name, email, contact } = formValue
 
     const [addContact] = useAddContactsMutation()

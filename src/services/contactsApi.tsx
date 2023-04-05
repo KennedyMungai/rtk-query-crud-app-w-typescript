@@ -15,6 +15,13 @@ export const contactsApi = createApi({
                 method: 'POST',
                 body: contact
             })
+        }),
+        deleteContact: builder.mutation<void, string>({
+            query: (id) => (
+                {
+                    url: `/contacts/${id}`,
+                    method: 'DELETE'
+                })
         })
     })
 })

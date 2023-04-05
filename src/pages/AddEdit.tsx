@@ -26,7 +26,7 @@ const AddEdit = () =>
     useEffect(() =>
     {
 
-    }, [])
+    }, [id, data])
 
 
     const handleInputChange = (e: ChangeEvent<HTMLInputElement>) =>

@@ -53,7 +53,7 @@ const AddEdit = () =>
                     id='email'
                     name='email'
                     placeholder='Enter Email....'
-                    value={name}
+                    value={email}
                     onChange={handleInputChange}
                 />
                 <label htmlFor="contact">Contact</label>
@@ -62,7 +62,7 @@ const AddEdit = () =>
                     id='contact'
                     name='contact'
                     placeholder='Enter Contact....'
-                    value={name}
+                    value={contact}
                     onChange={handleInputChange}
                 />
             </form>

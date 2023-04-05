@@ -18,11 +18,12 @@ const AddEdit = () =>
 
     const { name, email, contact } = formValue
 
+    const { id } = useParams()
+
     const [addContact] = useAddContactsMutation()
-    const { data, error } = useContactQuery()
+    const { data, error } = useContactQuery(id!)
 
     const navigate = useNavigate()
-    const { id } = useParams()
 
     useEffect(() =>
     {

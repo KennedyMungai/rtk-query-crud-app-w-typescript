@@ -33,7 +33,8 @@ const Home = () =>
     {
         if (window.confirm("Are you want to delete that contact?"))
         {
-
+            await deleteContact(id)
+            toast.success("Contact Deleted Successfully")
         }
     }
 

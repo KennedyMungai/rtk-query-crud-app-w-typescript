@@ -29,7 +29,7 @@ const Home = () =>
         return <h3 className='loading'>Loading...</h3>
     }
 
-    const handleDelete = async (id: number) =>
+    const handleDelete = async (id: string) =>
     {
         if (window.confirm("Are you want to delete that contact?"))
         {

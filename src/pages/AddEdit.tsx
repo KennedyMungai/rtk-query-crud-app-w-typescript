@@ -19,6 +19,7 @@ const AddEdit = () =>
     const [addContact] = useAddContactsMutation()
 
     const navigate = useNavigate()
+    const { id } = useParams()
 
     const handleInputChange = (e: ChangeEvent<HTMLInputElement>) =>
     {

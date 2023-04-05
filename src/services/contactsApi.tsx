@@ -29,5 +29,6 @@ export const contactsApi = createApi({
 
 export const {
     useContactsQuery,
-    useAddContactsMutation
+    useAddContactsMutation,
+    useDeleteContactMutation
 } = contactsApi

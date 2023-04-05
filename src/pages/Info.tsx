@@ -2,9 +2,7 @@ import React from 'react'
 import './Info.css'
 
 
-type Props = {}
-
-const Info = (props: Props) =>
+const Info = () =>
 {
     return (
         <div>Info</div>

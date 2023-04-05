@@ -34,6 +34,7 @@ const AddEdit = () =>
                     name='name'
                     placeholder='Enter Name....'
                     value={name}
+                    onChange={handleInputCHange}
                 />
             </form>
         </div>

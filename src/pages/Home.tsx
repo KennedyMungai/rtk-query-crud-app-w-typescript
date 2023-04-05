@@ -59,7 +59,10 @@ const Home = () =>
                                     <Link to={`/editContact/${item.id}`}>
                                         <button className="btn btn-edit">Edit</button>
                                     </Link>
-                                    <button className="btn btn-delete">
+                                    <button
+                                        className="btn btn-delete"
+                                        onClick={() => handleDelete(item.id)}
+                                    >
                                         Delete
                                     </button>
                                     <Link to={`/info/${item.id}`}>

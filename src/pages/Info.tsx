@@ -10,6 +10,15 @@ const Info = () =>
     const { id } = useParams()
     const { data, error } = useContactQuery(id!)
 
+    useEffect(() =>
+    {
+        if (error)
+        {
+            toast.error("Something went wrong")
+        }
+    }, [error])
+
+
     return (
         <div>Info</div>
     )

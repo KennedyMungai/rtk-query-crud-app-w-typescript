@@ -26,7 +26,10 @@ const AddEdit = () =>
 
     useEffect(() =>
     {
-
+        if (error && id)
+        {
+            toast.error("Something went wrong")
+        }
     }, [error])
 
 

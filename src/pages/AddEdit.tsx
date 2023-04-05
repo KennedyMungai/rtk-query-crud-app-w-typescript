@@ -19,7 +19,8 @@ const AddEdit = () =>
 
     const handleInputChange = (e: ChangeEvent<HTMLInputElement>) =>
     {
-
+        let { name, value } = e.target
+        setFormValue({ ...formValue, [name]: value })
     }
 
     const handleSubmit = (e: FormEvent<HTMLFormElement>) =>

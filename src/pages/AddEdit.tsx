@@ -69,9 +69,16 @@ const AddEdit = () =>
         }
         else
         {
-            await addContact(formValue)
-            navigate('/')
-            toast.success("Contact Added Successfully")
+            if (!editMode)
+            {
+                await addContact(formValue)
+                navigate('/')
+                toast.success("Contact Added Successfully")
+            }
+            else
+            {
+
+            }
         }
     }
 

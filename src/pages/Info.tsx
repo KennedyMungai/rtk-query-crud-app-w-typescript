@@ -6,6 +6,8 @@ import { toast } from 'react-toastify'
 
 const Info = () =>
 {
+    const { id } = useParams()
+
     return (
         <div>Info</div>
     )

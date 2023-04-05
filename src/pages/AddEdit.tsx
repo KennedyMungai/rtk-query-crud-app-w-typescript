@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { FormEventHandler, useEffect, useState } from 'react'
 import './AddEdit.css'
 import { useNavigate, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
@@ -22,6 +22,11 @@ const AddEdit = () =>
 
     }
 
+    const handleSubmit = () =>
+    {
+
+    }
+
     return (
         <div style={{ marginTop: '100px' }}>
             <form
@@ -31,6 +36,7 @@ const AddEdit = () =>
                     maxWidth: '400px',
                     alignContent: 'center'
                 }}
+                onSubmit={handleSubmit}
             >
                 <label htmlFor="name">Name</label>
                 <input

@@ -3,10 +3,11 @@ import './AddEdit.css'
 import { useNavigate, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import
-    {
-        useAddContactsMutation,
-        useContactQuery
-    } from '../services/contactsApi'
+{
+    useAddContactsMutation,
+    useContactQuery,
+    useUpdateContactMutation
+} from '../services/contactsApi'
 
 
 const initialState = {
@@ -25,6 +26,7 @@ const AddEdit = () =>
     const { id } = useParams()
 
     const [addContact] = useAddContactsMutation()
+    const [updateContact] = useUpdateContactMutation()
     const { data, error } = useContactQuery(id!)
 
     const navigate = useNavigate()

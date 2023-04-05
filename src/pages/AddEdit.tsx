@@ -4,9 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
 
-type Props = {}
-
-const AddEdit = (props: Props) =>
+const AddEdit = () =>
 {
     return (
         <div>AddEdit</div>
